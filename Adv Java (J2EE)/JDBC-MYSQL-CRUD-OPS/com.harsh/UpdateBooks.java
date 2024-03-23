@@ -3,9 +3,9 @@ import java.sql.DriverManager;
 import java.sql.Statement;
 
 public class UpdateBooks {
-  private static final String DB_URL = "jdbc:mysql://localhost:3306/<table-name>";
+  private static final String DB_URL = "jdbc:mysql://localhost:3306/<database-name>";
   private static final String DB_UNAME = "<user-name>";
-  private static final String DB_PWD = "<db-password>";
+  private static final String DB_PWD = "<pwd>";
   public static void main(String[] args) throws Exception{
     // step 1 : load Mysql Driver
     Class.forName("com.mysql.cj.jdbc.Driver");
